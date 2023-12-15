@@ -1,0 +1,59 @@
+body {
+  background-color: #bedfc4;
+  font-family:'Cinzel', Georgia, 'Times New Roman', Times, serif;
+}
+
+h1 {
+  font-family: 'Cinzel';
+  padding-top: 19px;
+}
+
+h2 {
+  text-align: center;
+  font-family: 'Cinzel';
+}
+
+h3 {
+  text-align: center;
+  font-family: 'Cinzel';
+} 
+
+h4 {
+  margin-top: 19px;
+  margin-left: 15px;
+  text-align: center;
+  padding-top: 19px;
+}
+
+.table {
+  margin: 27px;
+  border-color: black;
+  border-style: solid;
+  text-align: center;
+  width: 91.5%;
+  justify-content: center;
+  margin-left: 47px;
+}
+
+.btn {
+  font-size: 1.5rem;
+}
+
+.theader {
+  font-size: 1.25rem;
+}
+
+.container {
+  margin-top: 47px;
+}
+
+.col-md-4 {
+  color: black
+}
+ 
+
+
+
+
+
+

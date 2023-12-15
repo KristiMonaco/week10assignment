@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>week10assignment</title>
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.css">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Cinzel:wght@500">
+    <script src="script.js"></script>
+
+ </head> 
+ <body>
+
+ <div class="container text-center my-5">
+   <h1>THINGS I LIKE TO EAT</h1>
+ </div>
+
+
+ <div>
+  <h2>....................................................................................................................................
+  </h2>
+ </div>
+
+<!--a table with rows of food-->
+
+ <table class="table" id="foodTable">
+  <thead>
+    <tr class="tr">
+      <th scope="col" class="theader">·······································DELICIOUS FOODS·······································</th>
+      
+    </tr>
+  </thead>
+  <tbody class="table-group-divider">
+    <tr>
+      <th scope="row">DAN DAN NOODLES</th>  
+    </tr>
+    <tr>
+      <th scope="row">KOREAN FOOD</th> 
+    </tr>
+    <tr>
+      <th scope="row">RAW VEGGIES WITH RANCH DRESSING</th>
+    </tr>
+    <tr>
+      <th scope="row">ASIAN DUMPLINGS</th>
+    </tr>
+    <tr>
+      <th scope="row">SU BOREK</th>
+    </tr>
+    <tr>
+      <th scope="row">THAI GREEN CURRY</th>
+    </tr>
+    <tr>
+      <th scope="row">GYROS WITH FETA</th>
+    </tr>
+  </tbody>
+ </table>
+
+<div>
+ <h3>.......................................................................................................................................................</h3>
+</div>
+ 
+
+<br>
+<br>
+<br>
+<br>
+
+
+<!--Form to submit your favorite food and add it to a new row in the table-->
+      
+<h4>FILL OUT THE FORM TO ADD SOMETHING YOU LIKE TO EAT!</h4>
+
+<div class="container">
+ <form javascript:void(0)="/action-page.php" onsubmit="addFoodItem()">
+  
+  <div class="form-group">
+   <input type="text" class="form-control" id="newFood" placeholder="Enter Favorite Food">
+  </div>
+  
+  <div>
+  <button type="submit" class="btn btn-default">Submit</button>
+  </form>
+</div>
+<br>
+<br>
+
+
+<script src="node_modules/jquery/dist/jquery.js"></script>
+<script src="node_modules/bootstrap/dist/js/bootstrap.bundle.js"></script>
+
+   <hr>
+   <footer>©kristimariemonaco2023</footer>
+
+</body>
+</html>
